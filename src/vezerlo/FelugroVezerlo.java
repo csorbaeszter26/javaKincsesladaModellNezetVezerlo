@@ -2,16 +2,16 @@
 package vezerlo;
 
 import modell.JatekModell;
-import nezet.KonzolNezet;
+import nezet.FelugroNezet;
 
 
-public class KonzolVezerlo {
+public class FelugroVezerlo {
     
     private JatekModell modell;
-    private KonzolNezet nezet;
+    private FelugroNezet nezet;
     
     //peldanyositjuk ezta kettőt:
-    public KonzolVezerlo(JatekModell modell, KonzolNezet nezet) {
+    public FelugroVezerlo(JatekModell modell, FelugroNezet nezet) {
         this.modell = modell;
         this.nezet = nezet;
         
@@ -24,6 +24,5 @@ public class KonzolVezerlo {
         nezet.megjelenit(modell.ellenorzes());
         
     }
-    
     
 }
