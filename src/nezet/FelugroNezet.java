@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 
 
-public class FelugroNezet {
+public class FelugroNezet extends CUInezet{
     
     //private static final Scanner sc = new Scanner(System.in);
     
@@ -15,7 +15,7 @@ public class FelugroNezet {
         
     
     }
-    
+    @Override
     public int bekeres() {
         String v = JOptionPane.showInputDialog("Melyik ládában van  akincs? 1,2,3?");
        
